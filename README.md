@@ -19,3 +19,12 @@
 6. Update path-to-baniries and test openslide using ```test-open-slide.py```
 7. Install other requirements
 ```pip install -r requirements.txt```
+
+
+# To-do @Ali and @Ashwin
+1. Code to re-stitch and visualize the pathes and their annotaitons in Aperio Imagescopr
+2. Code to identify patches that are tissue but have no groud truth.
+3. Model training and validation using the created dataset
+4. Model testing and inference
+5. Result visualiztion
+ 
