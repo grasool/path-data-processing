@@ -5,7 +5,7 @@
  ### Run inference on the trained model
  ### Visualize results
 
-## Steps - Windows Machines
+## Setting Up Environment for Windows Machines
 
 1. Create conda environment
 ```conda create --name path-process python=3.10```
