@@ -88,10 +88,10 @@ for wsi in wsi_files:
     tiles_gt = create_gt_tiles(mask, 256)
     #Here, we have divided our svs into tiles of size 256 with no overlap. 
     
-    wsi_name = target_dir+'/'+ 'tissue_patches/'
+    wsi_name_ts = target_dir+'/'+ 'tissue_patches/'
     wsi_name_gt = target_dir+'/'+ 'annotations/'
     wsi_name_bg = target_dir+'/'+'backgroud/'
-    os.makedirs(wsi_name, exist_ok=True)
+    os.makedirs(wsi_name_ts, exist_ok=True)
     os.makedirs(wsi_name_gt, exist_ok=True)
     os.makedirs(wsi_name_bg, exist_ok=True)
     
@@ -114,24 +114,28 @@ for wsi in wsi_files:
             #Save original tile
             base_name = os.path.basename(wsi)  # New line
             base_name_no_ext = os.path.splitext(base_name)[0]  # New line
+            
 
             if (temp_tile_np.mean() < 235 and temp_tile_np.std() > 15):
 
                 print("Processing tile number:", tile_name)
                 #tifffile giving weird bugs so i use imageio
                 # pdb.set_trace()
-                tissue_file_name = os.path.join(wsi_name, base_name_no_ext + tile_name + ".tif")  # Corrected line
-                imageio.imwrite(tissue_file_name, temp_tile_np)
+                #
+                save_file_name = os.path.join(wsi_name_ts, base_name_no_ext + tile_name + ".tif")  # Corrected line
+                imageio.imwrite(save_file_name, temp_tile_np)
                 # pdb.set_trace()
                 #plt.imsave(wsi_name_gt + wsi.replace(wsi[-4:],'') + tile_name + ".jpg",tiles_gt[tile_count][2],cmap="gray")
-                ann_file_name = os.path.join(wsi_name_gt, base_name_no_ext + tile_name + ".tif")  # Corrected line
-                imageio.imwrite(ann_file_name, (tiles_gt[tile_count][2]*255).astype(np.uint8))
+                #ann_file_name = os.path.join(wsi_name_gt, base_name_no_ext + tile_name + ".tif")  # Corrected line
+                save_file_name = os.path.join(wsi_name_gt, base_name_no_ext + tile_name + ".tif")  # Corrected line
+                imageio.imwrite(save_file_name, (tiles_gt[tile_count][2]*255).astype(np.uint8))
                 processed_tiles += 1  # Increment processed tiles counter
             else:
                 print("NOT PROCESSING TILE:", tile_name)
                 # pdb.set_trace()
-                bg_file_name = os.path.join(wsi_name_bg, tile_name + ".tif")  # Corrected line
-                tiff.imwrite(bg_file_name, temp_tile_np)
+                #bg_file_name = os.path.join(wsi_name_bg, tile_name + ".tif")  # Corrected line
+                save_file_name = os.path.join(wsi_name_bg, base_name_no_ext + tile_name + ".tif")  # Corrected line
+                tiff.imwrite(save_file_name, temp_tile_np)
                 not_processed_tiles += 1  # Increment not processed tiles counter
             tile_count+=1
     # print(f"Step 3/3: Making GT patches")
