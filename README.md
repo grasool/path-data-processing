@@ -1,7 +1,7 @@
 ﻿# Process Pathology Slides
  ### 1. Create patches from given WSI
  ### 2. Create annotation patches
- ### 3. Train model
+ ### 3. Train, transfer learn or fine-tune models
  ### 4. Run inference on the trained model
  ### 5. Visualize results
 
