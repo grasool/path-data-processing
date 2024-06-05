@@ -22,9 +22,9 @@
 
 
 # To-do @Ali and @Ashwin
-# Define these and add a link to the notebook/python script that does that work
 1. Code to re-stitch and visualize the pathes and their annotaitons in Aperio Imagescopr
 2. Code to identify patches that are tissue but have no groud truth.
+Can be found via the create_patches.ipynb notebook
 3. Model training and validation using the created dataset
 4. Model testing and inference
 5. Result visualiztion
