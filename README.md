@@ -27,6 +27,8 @@
 Can be found via the create_patches.ipynb notebook
 3. Model training and validation using the created dataset
 4. Model testing and inference
+Can be found via the inference.ipynb notebook
 5. Result visualiztion
+Can be found via the inference.ipynb notebook
 
  
