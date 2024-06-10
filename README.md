@@ -1,9 +1,9 @@
 ﻿# Process Pathology Slides
- ### Create patches from given WSI
- ### Create annotation patches
- ### Train model
- ### Run inference on the trained model
- ### Visualize results
+ ### 1. Create patches from given WSI
+ ### 2. Create annotation patches
+ ### 3. Train, transfer learn or fine-tune models
+ ### 4. Run inference on the trained model
+ ### 5. Visualize results
 
 ## Setting Up Environment for Windows Machines
 
@@ -24,7 +24,11 @@
 # To-do @Ali and @Ashwin
 1. Code to re-stitch and visualize the pathes and their annotaitons in Aperio Imagescopr
 2. Code to identify patches that are tissue but have no groud truth.
+Can be found via the create_patches.ipynb notebook
 3. Model training and validation using the created dataset
 4. Model testing and inference
+Can be found via the inference.ipynb notebook
 5. Result visualiztion
+Can be found via the inference.ipynb notebook
+
  
