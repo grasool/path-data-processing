@@ -1,0 +1,6 @@
+1) sudo apt-get install openslide-tools
+sudo apt-get install python-openslide
+pip install openslide-python
+Now I can import openslide
+
+
