@@ -1,5 +1,5 @@
-# HistoPathology Slides Processing
-This repository is a complete package which deals with Whole Slide Histopathological Images.
+# HistoPathology Slides Processing Pipeline
+This repository is a complete package which deals with Whole Slide Histopathological Images. We perform custom user demanded segmentations using state of the art machine learning models on WSI! We also visualize results on eminent user friendly softwares for pathologists (Aperio)
 
 # 📍 Implementations
 
@@ -8,10 +8,16 @@ This repository is a complete package which deals with Whole Slide Histopatholog
  <p align="center"> <img src="tools/image2.png"\></p>
  <p align="center"> <img src="tools/gt2.png"\></p>
 
- ### 2. Create annotation patches 
- ### 3. Train, transfer learn or fine-tune models 
- ### 4. Run inference on the trained model 
- ### 5. Visualize results 
+ ### 2. Train, transfer learn or fine-tune models 
+ 
+ ### 3. Run inference on the trained model 
+
+<p align="center">
+  <img src="tools/imagem.png" height="300">
+  <img src="tools/test_inference.png" height="300">
+</p>
+
+ ### 4. Visualize results 
 
 <p align="center">
   <img src="tools/aperio.png" height="300">
