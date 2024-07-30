@@ -4,14 +4,15 @@ This repository is a complete package which deals with Whole Slide Histopatholog
 # 📍 Implementations
 
  ### 1. Create annotation and image patches from given WSI 
- <p align="center"> <img src="tools/image(2).png" height="300"\></p>
- <p align="center"> <img src="tools/image(3).png" height="300"\></p>
+ 
+ <p align="center"> <img src="tools/image2.png" height="300"\></p>
+ <p align="center"> <img src="tools/gt.png" height="300"\></p>
 
  ### 2. Create annotation patches 
  ### 3. Train, transfer learn or fine-tune models 
  ### 4. Run inference on the trained model 
  ### 5. Visualize results 
- <p align="center"> <img src="tools/image(4).png" height="300"\></p>
+ <p align="center"> <img src="tools/aperio.png" height="300"\></p>
 
 
 ## Deliverables
