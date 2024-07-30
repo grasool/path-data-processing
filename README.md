@@ -9,7 +9,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
  <p align="center"> <img src="tools/gt2.png"\></p>
 
  ### 2. Train, transfer learn or fine-tune models 
- 
+ Support for both Unet and Segformer-b5 based segmentation.
  ### 3. Run inference on the trained model 
 
 <p align="center">
@@ -30,16 +30,40 @@ This repository is a complete package which deals with Whole Slide Histopatholog
 ## Setting Up Environment for Windows Machines
 
 1. Create conda environment
-```bash conda create --name path-process python=3.10```
+   
+```bash
+conda create --name path-process python=3.10
+```
+
 2. Activate conda environment
-```bash conda activate path-process```
+
+```bash
+conda activate path-process
+```
+
 3. Install pytorch
-```bash pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121```
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
 4. Install openslide
-```bash pip install openslide-python```
+
+```bash
+pip install openslide-python
+```
 5. Download and copy openslide binaries from [here](https://openslide.org/api/python/#basic-usage)
-6. Update path-to-baniries and test openslide using ```bash test-open-slide.py```
+
+6. Update path-to-baniries and test openslide using
+
+```bash
+test-open-slide.py
+```
+
 7. Install other requirements
-```bash pip install -r requirements.txt```
+
+```bash
+pip install -r requirements.txt
+```
 
  
