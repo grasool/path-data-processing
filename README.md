@@ -1,34 +1,35 @@
-﻿# Process Pathology Slides
- ### 1. Create patches from given WSI
- ### 2. Create annotation patches
- ### 3. Train, transfer learn or fine-tune models
- ### 4. Run inference on the trained model
- ### 5. Visualize results
+# HistoPathology Slides Processing
+This repository is a complete package which deals with Whole Slide Histopathological Images.
+
+# 📍 Implementations
+
+ ### 1. Create annotation and image patches from given WSI 
+ <p align="center"> <img src="tools/image(2).png" height="300"\></p>
+ <p align="center"> <img src="tools/image(3).png" height="300"\></p>
+
+ ### 2. Create annotation patches 
+ ### 3. Train, transfer learn or fine-tune models 
+ ### 4. Run inference on the trained model 
+ ### 5. Visualize results 
+ <p align="center"> <img src="tools/image(4).png" height="300"\></p>
+
+
+## Deliverables
+###  
 
 ## Setting Up Environment for Windows Machines
 
 1. Create conda environment
-```conda create --name path-process python=3.10```
+```bash conda create --name path-process python=3.10```
 2. Activate conda environment
-```conda activate path-process```
+```bash conda activate path-process```
 3. Install pytorch
-```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121```
+```bash pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121```
 4. Install openslide
-```pip install openslide-python```
+```bash pip install openslide-python```
 5. Download and copy openslide binaries from [here](https://openslide.org/api/python/#basic-usage)
-6. Update path-to-baniries and test openslide using ```test-open-slide.py```
+6. Update path-to-baniries and test openslide using ```bash test-open-slide.py```
 7. Install other requirements
-```pip install -r requirements.txt```
-
-
-# To-do @Ali and @Ashwin
-1. Code to re-stitch and visualize the pathes and their annotaitons in Aperio Imagescope
-2. Code to identify patches that are tissue but have no groud truth.:
-Can be found via the create_patches.ipynb notebook.
-3. Model training and validation using the created dataset
-4. Model testing and inference: 
-Can be found via the inference.ipynb notebook.
-5. Result visualiztion:
-Can be found via the inference.ipynb notebook.
+```bash pip install -r requirements.txt```
 
  
