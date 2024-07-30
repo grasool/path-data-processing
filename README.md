@@ -14,7 +14,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
 
 <p align="center">
   <img src="tools/imagem.png" height="300">
-  <img src="tools/test_inference.png" height="300">
+  <img src="tools/test_inference.jpg" height="300">
 </p>
 
  ### 4. Visualize results 
