@@ -4,7 +4,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
   <tr>
     <td style="text-align: center;">
       <p><strong>Input Slide</strong></p>
-      <img src="tools/image1.png" height="300">
+      <img src="tools/image1.png" height="310">
     </td>
     <td style="text-align: center;">
       <p><strong>Restitched Inference</strong></p>
@@ -12,7 +12,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
     </td>
     <td style="text-align: center;">
       <p><strong>Visualization in Aperio</strong></p>
-      <img src="tools/aperio3.png" height="250">
+      <img src="tools/aperio3.png" height="260">
     </td>
   </tr>
 </table>
@@ -26,10 +26,10 @@ This repository is a complete package which deals with Whole Slide Histopatholog
 
 # 📍 Implementations
 
- ### 1. Create annotation and image patches from given WSI 
- ### 2. Train, transfer learn or fine-tune models 
- ### 3. Run inference on the trained model 
- ### 4. Restitch Inference patches and Visualize results 
+ ##### 1. Create annotation and image patches from given WSI 
+ ##### 2. Train, transfer learn or fine-tune models 
+ ##### 3. Run inference on the trained model 
+ ##### 4. Restitch Inference patches and Visualize results 
 
 ## Setting Up Environment for Windows Machines
 1. Create conda environment
@@ -136,8 +136,8 @@ To be updated by @Ashwin
 After running the inferences based on either Segformer or Unet, xml files will be stored in ```outputs/``` folder. In APerio, load your tiff image and navigate to View -> Annotations -> Open Local Annotations -> Select our generated xml file.
 
 <p align="center">
-  <img src="tools/aperio.png" height="300">
-  <img src="tools/aperio2.png" height="300">
+  <img src="tools/aperio.png" height="280">
+  <img src="tools/aperio2.png" height="280">
 </p>
 
 # Contributing 🤝
