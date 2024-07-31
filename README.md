@@ -3,19 +3,19 @@ This repository is a complete package which deals with Whole Slide Histopatholog
 <table>
   <tr>
     <td style="text-align: center;">
-      <p><strong>&Input Whole Slide Slide</strong></p>
+      <p><strong>Input Slide</strong></p>
       <img src="tools/image1.png" height="250">
     </td>
     <td style="text-align: center;">
       <p><strong>Converting to Patches</strong></p>
-      <img src="tools/patches.png">
+      <img src="tools/patches.png" height="100">
     </td>
     <td style="text-align: center;">
-      <p><strong>Restitched Model's output Patches</strong></p>
+      <p><strong>Restitched Inference Patches</strong></p>
       <img src="tools/test_inference2.jpg" height="250">
     </td>
     <td style="text-align: center;">
-      <p><strong>Annotated Slide in Aperio</strong></p>
+      <p><strong>Visualization in Aperio</strong></p>
       <img src="tools/aperio3.png" height="250">
     </td>
   </tr>
