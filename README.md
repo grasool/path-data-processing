@@ -5,12 +5,8 @@ This repository is a complete package which deals with Whole Slide Histopatholog
   <div style="display: inline-block; margin: 0 10px;">
     <p><strong>Original Slide</strong></p>
     <img src="tools/image1.png" height="250">
-  </div>
-  <div style="display: inline-block; margin: 0 10px;">
     <p><strong>Segmented Slide</strong></p>
     <img src="tools/test_inference2.jpg" height="250">
-  </div>
-  <div style="display: inline-block; margin: 0 10px;">
     <p><strong>Annotated Slide in Aperio</strong></p>
     <img src="tools/aperio3.png" height="250">
   </div>
