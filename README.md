@@ -51,8 +51,29 @@ test-open-slide.py
 ```bash
 pip install -r requirements.txt
 ```
+# 📍 Example Usage
 
+ ### 1. Create image and annotation patches from given WSI 
+Put .tif or .svs slides for training and/or testing purposes in data_wsi/images/train, data_wsi/images/test folders
 
+Put xml annotations in data_wsi/annotations/train, data_wsi/annotations/test 
+
+Make sure the WSI name in ```data_wsi/annotations/train``` or ```data_wsi/annotations/test```,  matches its xml file name. For example: ```TMA457_1_1_C_.tif``` file is present in ```data_wsi/images/train```, it's corresponding ```TMA457_1_1_C_.xml``` must be present in ```data_wsi/annotations/train```
+
+##### Train image and annotations patches
+
+To generate image patches by ignoring white background for training, use:
+
+ ```bash
+python data_wsi/preprocess_train.py --wsi_path data_wsi/images/train --xml_path data_wsi/annotations/train --target_dir ./data_patches
+```
+##### Test image and annotations patches
+
+To generate image patches by ignoring white background for test, use:
+
+ ```bash
+python data_wsi/preprocess_test.py --wsi_path data_wsi/images/test --xml_path data_wsi/annotations/test --target_dir ./data_patches
+```
  <p align="center"> <img src="tools/image2.png"\></p>
  <p align="center"> <img src="tools/gt2.png"\></p>
 <p align="center">
