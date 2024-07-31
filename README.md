@@ -4,7 +4,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
   <tr>
     <td style="text-align: center;">
       <p><strong>Input Slide</strong></p>
-      <img src="tools/image1.png" height="310">
+      <img src="tools/image1.png" height="300">
     </td>
     <td style="text-align: center;">
       <p><strong>Restitched Inference</strong></p>
@@ -12,7 +12,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
     </td>
     <td style="text-align: center;">
       <p><strong>Visualization in Aperio</strong></p>
-      <img src="tools/aperio3.png" height="260">
+      <img src="tools/aperio3.png" height="270">
     </td>
   </tr>
 </table>
@@ -136,8 +136,8 @@ To be updated by @Ashwin
 After running the inferences based on either Segformer or Unet, xml files will be stored in ```outputs/``` folder. In APerio, load your tiff image and navigate to View -> Annotations -> Open Local Annotations -> Select our generated xml file.
 
 <p align="center">
-  <img src="tools/aperio.png" height="280">
-  <img src="tools/aperio2.png" height="280">
+  <img src="tools/aperio.png" height="260">
+  <img src="tools/aperio2.png" height="260">
 </p>
 
 # Contributing 🤝
