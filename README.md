@@ -4,11 +4,12 @@ This repository is a complete package which deals with Whole Slide Histopatholog
 <table>
   <tr>
     <td style="text-align: center;">
-      <p><strong>   Original Slide</strong></p>
+      <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Original Slide</strong></p>
       <img src="tools/image1.png" height="250">
     </td>
     <td style="text-align: center;">
-      <p><strong>   Segmented Slide</strong></p>
+      <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Segmented Slide</strong></p>
+
       <img src="tools/test_inference2.jpg" height="250">
     </td>
     <td style="text-align: center;">
