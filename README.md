@@ -4,11 +4,11 @@ This repository is a complete package which deals with Whole Slide Histopatholog
   <tr>
     <td style="text-align: center;">
       <p><strong>Input Slide</strong></p>
-      <img src="tools/image1.png" height="250">
+      <img src="tools/image1.png" height="300">
     </td>
     <td style="text-align: center;">
       <p><strong>Restitched Inference</strong></p>
-      <img src="tools/test_inference2.jpg" height="250">
+      <img src="tools/test_inference2.jpg" height="270">
     </td>
     <td style="text-align: center;">
       <p><strong>Visualization in Aperio</strong></p>
@@ -54,6 +54,10 @@ pip install -r requirements.txt
 # 📍 Example Usage
 
  ### 1. Create image and annotation patches from given WSI 
+ 
+ <p align="center"> <img src="tools/image2.png" height="200"\></p>
+ <p align="center"> <img src="tools/gt2.png" height="200"\></p>
+ 
 Put .tif or .svs slides for training and/or testing purposes in data_wsi/images/train, data_wsi/images/test folders
 
 Put xml annotations in data_wsi/annotations/train, data_wsi/annotations/test 
@@ -74,8 +78,6 @@ To generate image patches by ignoring white background for test, use:
  ```bash
 python data_wsi/preprocess_test.py --wsi_path data_wsi/images/test --xml_path data_wsi/annotations/test --target_dir ./data_patches
 ```
- <p align="center"> <img src="tools/image2.png"\></p>
- <p align="center"> <img src="tools/gt2.png"\></p>
 <p align="center">
   <img src="tools/imagem.png" height="300">
   <img src="tools/test_inference.jpg" height="300">
