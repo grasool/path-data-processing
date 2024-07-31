@@ -1,38 +1,17 @@
 # HistoPathology Slides Processing Pipeline
 This repository is a complete package which deals with Whole Slide Histopathological Images. We perform custom user demanded segmentations using state of the art machine learning models on WSI! We also visualize results on eminent user friendly softwares for pathologists (Aperio)
 <p align="center">
-  <img src="tools/image1.png">
-  <img src="tools/test_inference2.jpg">
- <img src="tools/aperio3.jpg">
+  <img src="tools/image1.png" height="300">
+  <img src="tools/test_inference2.jpg" height="300">
+ <img src="tools/aperio3.png" height="300">
 </p>
-
-
 
 # 📍 Implementations
 
  ### 1. Create annotation and image patches from given WSI 
- 
- <p align="center"> <img src="tools/image2.png"\></p>
- <p align="center"> <img src="tools/gt2.png"\></p>
-
  ### 2. Train, transfer learn or fine-tune models 
- Support for both Unet and Segformer-b5 based segmentation.
  ### 3. Run inference on the trained model 
-
-<p align="center">
-  <img src="tools/imagem.png" height="300">
-  <img src="tools/test_inference.jpg" height="300">
-</p>
-
  ### 4. Visualize results 
-
-<p align="center">
-  <img src="tools/aperio.png" height="300">
-  <img src="tools/aperio2.png" height="300">
-</p>
-
-## Deliverables
-###  
 
 ## Setting Up Environment for Windows Machines
 
@@ -73,4 +52,17 @@ test-open-slide.py
 pip install -r requirements.txt
 ```
 
+
+ <p align="center"> <img src="tools/image2.png"\></p>
+ <p align="center"> <img src="tools/gt2.png"\></p>
+<p align="center">
+  <img src="tools/imagem.png" height="300">
+  <img src="tools/test_inference.jpg" height="300">
+</p>
+
+
+<p align="center">
+  <img src="tools/aperio.png" height="300">
+  <img src="tools/aperio2.png" height="300">
+</p>
  
