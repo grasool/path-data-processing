@@ -55,8 +55,8 @@ pip install -r requirements.txt
 
  ### 1. Create image and annotation patches from given WSI 
  
- <p align="center"> <img src="tools/image2.png" height="200"\></p>
- <p align="center"> <img src="tools/gt2.png" height="200"\></p>
+ <p align="center"> <img src="tools/image2.png" height="100"\></p>
+ <p align="center"> <img src="tools/gt2.png" height="100"\></p>
  
 Put .tif or .svs slides for training and/or testing purposes in data_wsi/images/train, data_wsi/images/test folders
 
