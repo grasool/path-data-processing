@@ -1,11 +1,20 @@
 # HistoPathology Slides Processing Pipeline
 This repository is a complete package which deals with Whole Slide Histopathological Images. We perform custom user demanded segmentations using state of the art machine learning models on WSI! We also visualize results on eminent user friendly softwares for pathologists (Aperio)
 
-<p align="center">
-  <img src="tools/image1.png" height="250">
-  <img src="tools/test_inference2.jpg" height="250">
- <img src="tools/aperio3.png" height="250">
-</p>
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 0 10px;">
+    <p><strong>Original Slide</strong></p>
+    <img src="tools/image1.png" height="250">
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <p><strong>Segmented Slide</strong></p>
+    <img src="tools/test_inference2.jpg" height="250">
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <p><strong>Annotated Slide in Aperio</strong></p>
+    <img src="tools/aperio3.png" height="250">
+  </div>
+</div>
 
 # 📍 Implementations
 
