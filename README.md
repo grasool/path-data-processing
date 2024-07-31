@@ -8,7 +8,7 @@ This repository is a complete package which deals with Whole Slide Histopatholog
     </td>
     <td style="text-align: center;">
       <p><strong>Converting to Patches</strong></p>
-      <img src="tools/patches.png" height="100">
+      <img src="tools/patches.png" height="250">
     </td>
     <td style="text-align: center;">
       <p><strong>Restitched Inference Patches</strong></p>
