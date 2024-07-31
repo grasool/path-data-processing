@@ -3,7 +3,7 @@ import pdb
 import sys
 import os
 import torch
-sys.path.append('../moffitt_ali')
+sys.path.append('../path-data-processing')
 from models.unet import UNet
 from torch import optim, nn
 from torch.utils.data import DataLoader

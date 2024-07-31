@@ -4,7 +4,7 @@ import os
 import sys
 import numpy as np
 import openslide
-sys.path.append('../moffitt_ali')
+sys.path.append('../path-data-processing')
 from models.unet import UNet
 from openslide.deepzoom import DeepZoomGenerator
 from torchvision.transforms import transforms
