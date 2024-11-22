@@ -1,0 +1,11 @@
+/prediction_results/
+/segformer_results6/
+/segformer_results7/
+/wandb/
+best_model_cancer.pth
+best_model.pth
+top_train_loss_model_1.pth
+top_train_loss_model_2.pth
+top_train_loss_model_3.pth
+top_train_loss_model_4.pth
+top_train_loss_model_5.pth
